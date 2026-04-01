@@ -67,8 +67,9 @@ p {
     border-radius: 15px; 
     overflow: hidden; 
     margin-bottom: 30px;
-    background: #eee; 
-    height: 80px;
+    background: #000; /* Fondo negro para el video */
+    height: 200px; /* Más alto para formato video 16:9 */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .cta-btn {
