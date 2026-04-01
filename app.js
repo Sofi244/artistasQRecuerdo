@@ -25,14 +25,14 @@ const data = {
         "phrase": "Modo Diablo. Si te sentís solo, escuchá esto.",
         "img": "https://www.billboard.com/wp-content/uploads/2024/11/Duki-cr-Guido-Adler-press-2024-billboard-1548.jpg?w=942&h=628&crop=1",
         "youtube": "https://www.youtube.com/embed/6biv8AQcjNU",
-        "color": "#530000" // Rojo oscuro
+        "color": "#9e2c2c" // Rojo oscuro
     },
     "airbag": {
         "name": "Airbag",
         "phrase": "El futuro prende mi ansiedad.",
         "img": "https://mrindie.com/wp-content/uploads/2022/10/Airbag.jpg",
         "youtube": "https://www.youtube.com/embed/x813FfwbL4Q",
-        "color": "#070a25" // Azul oscuro
+        "color": "#2330a5" // Azul oscuro
     },
     "harry": {
         "name": "Harry Styles",
