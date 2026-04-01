@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRecuerdo - Experiencia Digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="app" class="card" style="display:none;">
+        <img id="artist-img" class="header-img" src="" alt="Artista">
+        <div class="content">
+            <img src="https://img.icons8.com/fluent/48/000000/star.png" class="star" style="top:10px; left:10px;" alt="Estrella">
+            <img src="https://img.icons8.com/fluent/48/000000/star.png" class="star" style="bottom:100px; right:10px;" alt="Estrella">
+            
+            <h1 id="artist-name">Cargando...</h1>
+            <p id="artist-phrase"></p>
+            
+            <div class="player-container" id="player">
+                </div>
+
+            <a href="https://www.instagram.com/QRecuerdo_ar" class="cta-btn">¡Pedí tu QRecuerdo personalizado!</a>
+            
+            <div class="footer">Una experiencia digital de QRecuerdo ⭐</div>
+        </div>
+    </div>
+
+    <div id="error">
+        <h2>Ups... no encontramos a este artista.</h2>
+        <p>Escaneá otro código o contactanos.</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
