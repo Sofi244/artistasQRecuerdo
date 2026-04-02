@@ -30,7 +30,7 @@ const data = {
     "airbag": {
         "name": "Airbag",
         "phrase": "El futuro prende mi ansiedad.",
-        "img": "https://mrindie.com/wp-content/uploads/2022/10/Airbag.jpg",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2025/05/62A7004-2.jpg",
         "youtube": "https://www.youtube.com/embed/x813FfwbL4Q",
         "color": "#2330a5" // Azul oscuro
     },
