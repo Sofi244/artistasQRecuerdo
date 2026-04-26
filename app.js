@@ -36,9 +36,9 @@ const data = {
     },
     "harry": {
         "name": "Harry Styles",
-        "phrase": "My friends are in love with American girls.",
+        "phrase": "You sunshine, you temptress",
         "img": "https://www.rollingstone.com/wp-content/uploads/2019/08/20190723_Rolling_Stone_Harry_Styles_Rocks_0119_03_ext_RGB-LEAD-NEW.jpg",
-        "youtube": "https://www.youtube.com/embed/o6jQo3-iCao",
+        "youtube": "https://www.youtube.com/watch?v=Ojp71GGm-LQ&list=RDOjp71GGm-LQ&start_radio=1",
         "color": "#ffb6c1" // Rosa Watermelon Sugar
     },
     "sabrina": {
