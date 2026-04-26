@@ -38,7 +38,7 @@ const data = {
         "name": "Harry Styles",
         "phrase": "You sunshine, you temptress",
         "img": "https://www.rollingstone.com/wp-content/uploads/2019/08/20190723_Rolling_Stone_Harry_Styles_Rocks_0119_03_ext_RGB-LEAD-NEW.jpg",
-        "youtube": "https://www.youtube.com/watch?v=Ojp71GGm-LQ&list=RDOjp71GGm-LQ&start_radio=1",
+        "youtube": "https://www.youtube.com/embed/Ojp71GGm-LQ",
         "color": "#ffb6c1" // Rosa Watermelon Sugar
     },
     "sabrina": {
