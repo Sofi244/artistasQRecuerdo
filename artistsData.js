@@ -722,4 +722,101 @@ const artistsData = {
             message: "Escanea este QR siempre que quieras volver a este momento."
         }
     }
-};
+},    "recuerdo-especial-jimin": {
+        id: "recuerdo-especial-jimin",
+        name: "Recuerdo Especial con Jimin",
+        subtitle: "Un momento guardado junto a Jimin",
+        biography: "Hay momentos y melodías que detienen el tiempo, convirtiéndose en el refugio perfecto de los recuerdos más hermosos. Este espacio fue diseñado exclusivamente para revivir ese instante mágico con Jimin.",
+        theme: {
+            colors: {
+                primary: "#ec4899",
+                secondary: "#fbcfe8",
+                accent: "#fdf2f8",
+                background: "#160711",
+                surface: "rgba(54, 16, 41, 0.75)",
+                text: "#ffffff",
+                muted: "#fce7f3"
+            },
+            gradient: "linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%)"
+        },
+        hero: {
+            image: "img/jimin1.jpg",
+            alt: "Recuerdo especial Jimin",
+            title: "Para alguien muy especial",
+            description: "Una dedicatoria única plasmada en este QRecuerdo.",
+            quote: "«You never walk alone in this journey.»"
+        },
+        allGallery: [
+            { image: "img/jimin1.jpg", title: "Instante inolvidable", description: "El día en que su voz cobró un sentido diferente." },
+            { image: "img/jimin2.jpg", title: "Nuestra historia", description: "Pequeños detalles que construyen un gran camino juntos." }
+        ],
+        allFacts: [
+            { number: "01", text: "La fecha que cambió nuestra perspectiva de las cosas." },
+            { number: "02", text: "Una melodía compartida que vale más que mil palabras." }
+        ],
+        music: {
+            title: "Jimin - Like Crazy Vibes",
+            audioUrl: "https://actions.google.com/sounds/v1/ambiences/night_train.ogg",
+            loop: true
+        },
+        floatingConfig: {
+            type: "🌸",
+            messages: [
+                "«Gracias por cada momento compartido y por los que faltan.»",
+                "«Tu sonrisa es el mejor paisaje de este recuerdo.»"
+            ]
+        },
+        closing: {
+            title: "Por siempre en la memoria",
+            message: "Escanea este QR siempre que quieras volver a este momento."
+        }
+    },
+    "recuerdo-especial-jk": {
+        id: "recuerdo-especial-jk",
+        name: "Recuerdo Especial con Jungkook",
+        subtitle: "Un momento dorado guardado para siempre",
+        biography: "Hay canciones que detienen el tiempo y se convierten en el refugio perfecto de los recuerdos más hermosos que compartimos. Este espacio fue diseñado exclusivamente para revivir ese instante único junto a Jungkook.",
+        theme: {
+            colors: {
+                primary: "#10b981",
+                secondary: "#6ee7b7",
+                accent: "#ecfdf5",
+                background: "#061812",
+                surface: "rgba(13, 51, 37, 0.75)",
+                text: "#ffffff",
+                muted: "#a7f3d0"
+            },
+            gradient: "linear-gradient(135deg, #10b981 0%, #3b82f6 100%)"
+        },
+        hero: {
+            image: "img/jungkook1.jpg",
+            alt: "Recuerdo especial Jungkook",
+            title: "Para alguien muy especial",
+            description: "Una dedicatoria única plasmada en este QRecuerdo.",
+            quote: "«Standing Next to You: un amor que trasciende cualquier escenario.»"
+        },
+        allGallery: [
+            { image: "img/jungkook1.jpg", title: "Instante inolvidable", description: "El día en que todo cobró un sentido diferente." },
+            { image: "img/jungkook2.jpg", title: "Nuestra historia", description: "Pequeños detalles que construyen un gran camino juntos." }
+        ],
+        allFacts: [
+            { number: "01", text: "La fecha que cambió nuestra perspectiva de las cosas." },
+            { number: "02", text: "Una risa compartida que vale más que mil palabras." }
+        ],
+        music: {
+            title: "Jungkook - Seven Beats",
+            audioUrl: "https://actions.google.com/sounds/v1/ambiences/coffee_shop.ogg",
+            loop: true
+        },
+        floatingConfig: {
+            type: "🔥",
+            messages: [
+                "«Gracias por cada momento compartido y por los que faltan.»",
+                "«Tu sonrisa es el mejor paisaje de este recuerdo.»"
+            ]
+        },
+        closing: {
+            title: "Por siempre en la memoria",
+            message: "Escanea este QR siempre que quieras volver a este momento."
+        }
+    };
