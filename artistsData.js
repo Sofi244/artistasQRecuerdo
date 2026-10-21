@@ -252,12 +252,12 @@ const artistsData = {
             description: "Like Crazy: melodías envolventes que atrapan los sentidos.",
             quote: "«Promise: I want you to be your light.»"
         },
-      allGallery: [
+        allGallery: [
             { image: "img/jimin1.jpg", title: "Face of Art", description: "Vulnerabilidad y belleza en cada nota interpretada." },
             { image: "img/jimin2.jpg", title: "Danza contemporánea", description: "La elegancia hecha movimiento sobre el escenario." },
             { image: "img/jimin0.jpg", title: "Momentos de luz", description: "La calidez y empatía que transmite siempre a sus fans." }
         ],
-      allFacts: [
+        allFacts: [
             { number: "01", text: "Primer solista coreano en alcanzar el número 1 en el Billboard Hot 100." },
             { number: "02", text: "Fue el mejor estudiante de su clase en el departamento de danza moderna en la Escuela Superior de Artes de Busan." },
             { number: "03", text: "Es ampliamente reconocido por su gran generosidad, realizando donaciones constantes y silenciosas a la educación y la infancia." }
@@ -721,8 +721,8 @@ const artistsData = {
             title: "Por siempre en la memoria",
             message: "Escanea este QR siempre que quieras volver a este momento."
         }
-    }
-},    "btsjiminespecial": {
+    },
+    "btsjiminespecial": {
         id: "recuerdo-especial-jimin",
         name: "Recuerdo Especial con Jimin",
         subtitle: "Un momento guardado junto a Jimin",
@@ -819,4 +819,5 @@ const artistsData = {
             title: "Por siempre en la memoria",
             message: "Escanea este QR siempre que quieras volver a este momento."
         }
-    };
+    }
+};
