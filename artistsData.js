@@ -722,7 +722,7 @@ const artistsData = {
             message: "Escanea este QR siempre que quieras volver a este momento."
         }
     }
-},    "recuerdo-especial-jimin": {
+},    "btsjiminespecial": {
         id: "recuerdo-especial-jimin",
         name: "Recuerdo Especial con Jimin",
         subtitle: "Un momento guardado junto a Jimin",
@@ -771,7 +771,7 @@ const artistsData = {
             message: "Escanea este QR siempre que quieras volver a este momento."
         }
     },
-    "recuerdo-especial-jk": {
+    "btsjkespecial": {
         id: "recuerdo-especial-jk",
         name: "Recuerdo Especial con Jungkook",
         subtitle: "Un momento dorado guardado para siempre",
