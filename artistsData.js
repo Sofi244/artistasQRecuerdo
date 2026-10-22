@@ -873,7 +873,13 @@ const artistsData = {
             type: "🌸",
             messages: [
                 "«You never walk alone in this journey.»",
-                "«I want you to be your light, baby. Cuídate mucho.»"
+                "«Cuídate mucho y recuerda lo valioso que sos.»",
+                "«I want you to be your light, baby.»",
+                "«Incluso en los días grises, tu sonrisa ilumina todo.»",
+                "«Gracias por quedarte a mi lado y caminar juntos con el corazón.»",
+                "«Let's love ourselves, and keep moving forward with grace.»",
+                "«Sos mucho más fuerte de lo que imaginas.»",
+                "«Que la música siempre sea un refugio cálido para tu corazón.»"
             ]
         },
         closing: {
