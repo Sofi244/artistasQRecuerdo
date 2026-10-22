@@ -17,16 +17,16 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #9333ea 0%, #db2777 100%)"
         },
         hero: {
-            image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+            image: "https://i.pinimg.com/736x/45/12/0f/45120f5761a840b1d0fd41ffd7ce8227.jpg",
             alt: "BTS en concierto",
             title: "Más que una banda, una familia",
             description: "Un recorrido emocional por las melodías y los momentos que marcaron una era inolvidable.",
             quote: "«Even if this road is rough and we walk it, let's go together.»"
         },
         allGallery: [
-            { image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80", title: "Magia en el escenario", description: "La energía inigualable de cada presentación en vivo." },
-            { image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80", title: "Conexión eterna con ARMY", description: "Cada océano de luces púrpuras representa un lazo único." },
-            { image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80", title: "Armonía y pasión", description: "Canciones que sanan el alma y acompañan en cada etapa." }
+            { image: "https://i.pinimg.com/736x/c7/76/39/c77639c1a8f00a8d6dd03957bbd752cc.jpg", title: "Magia en el escenario", description: "La energía inigualable de cada presentación en vivo." },
+            { image: "https://i.pinimg.com/736x/ae/6a/34/ae6a344eb3c3c987959e4262d5b766fd.jpg", title: "Conexión eterna con ARMY", description: "Cada océano de luces púrpuras representa un lazo único." },
+            { image: "https://i.pinimg.com/1200x/2c/a0/1d/2ca01d057d8db994f2393440b1e09714.jpg", title: "Armonía y pasión", description: "Canciones que sanan el alma y acompañan en cada etapa." }
         ],
         allFacts: [
             { number: "01", text: "El debut oficial ocurrió el 13 de junio de 2013 con el sencillo 'No More Dream'." },
@@ -34,8 +34,8 @@ const artistsData = {
             { number: "03", text: "Han batido récords históricos en las listas globales de Billboard y estadios." }
         ],
         music: {
-            title: "BTS - Arirang (Fan Edit)",
-            audioUrl: "https://actions.google.com/sounds/v1/ambiences/coffee_shop.ogg",
+            title: "BTS - Magic Shop",
+            audioUrl: "musica/BTS-Magic Shop.mp3",
             loop: true
         },
         floatingConfig: {
@@ -51,11 +51,11 @@ const artistsData = {
             message: "Guarda este recuerdo digital en tu corazón y llévalo siempre contigo."
         }
     },
-    "bts-rm": {
+"bts-rm": {
         id: "bts-rm",
         name: "RM (Kim Namjoon)",
         subtitle: "Poesía, arte y liderazgo",
-        biography: "Líder, compositor y alma creativa de BTS. Namjoon transforma cada reflexión sobre el arte, la naturaleza y la vida en obras maestras literarias y musicales.",
+        biography: "Líder, compositor y alma creativa de BTS. Namjoon transforma cada reflexión sobre el arte, la naturaleza, la lectura y la vida cotidiana en obras maestras literarias y musicales que guían a millones.",
         theme: {
             colors: {
                 primary: "#2563eb",
@@ -69,38 +69,59 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #2563eb 0%, #06b6d4 100%)"
         },
         hero: {
-            image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80",
+            image: "https://i.pinimg.com/736x/18/fd/5b/18fd5bc91e6c4a07ba197c9757e647b5.jpg",
             alt: "RM de BTS",
             title: "Namjoon",
-            description: "El arte, los museos y las palabras convertidas en refugio.",
-            quote: "«Persona, Ego, Shadow. Todo forma parte de quién eres.»"
+            description: "El arte, los museos y las palabras convertidas en un refugio eterno.",
+            quote: "«Persona, Ego, Shadow. Todo forma parte de quién eres y de cómo aprendes a amarte.»"
         },
         allGallery: [
-            { image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80", title: "Namjooning", description: "Paseos entre naturaleza, libros y galerías de arte." },
-            { image: "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?auto=format&fit=crop&w=800&q=80", title: "Reflexiones", description: "Espacios de inspiración pura." }
+            { 
+                image: "https://i.pinimg.com/736x/18/fd/5b/18fd5bc91e6c4a07ba197c9757e647b5.jpg", 
+                title: "Inspiración en Galerías", 
+                description: "Su conexión profunda con el arte contemporáneo y los museos de todo el mundo (el famoso 'Namjooning')." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/08/43/63/0843639d96de5979ca2ac047b4a722c1.jpg", 
+                title: "Refugio en la Música", 
+                description: "Letras profundas y composiciones sinceras que sanan el alma en cada compás." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/95/97/8b/95978b4bceb744b469b98ace064d5bb4.jpg", 
+                title: "El Poder de las Palabras", 
+                description: "Un intelecto brillante que lidera con empatía, poesía y una visión única del universo." 
+            }
         ],
         allFacts: [
-            { number: "01", text: "Es un ávido coleccionista de arte contemporáneo y apasionado de la lectura." }
+            { number: "01", text: "Es un ávido coleccionista de arte contemporáneo y apasionado de la lectura, encontrando inspiración constante en libros de filosofía y poesía." },
+            { number: "02", text: "Aprendió inglés de forma autodidacta viendo la serie 'Friends' junto a su madre desde pequeño." },
+            { number: "03", text: "Ha liderado históricas charlas y discursos en la ONU, inspirando a la juventud global a alzar su propia voz." }
         ],
         music: {
-            title: "RM - Mono (Ambient Mix)",
-            audioUrl: "https://actions.google.com/sounds/v1/ambiences/night_train.ogg",
+            title: "RM - Seoul",
+            audioUrl: "musica/RM-Seoul.mp3",
             loop: true
         },
         floatingConfig: {
             type: "📘",
-            messages: ["«Encuentra tu propio mapa en este vasto mundo.»"]
+            messages: [
+                "«Encuentra tu propio mapa en este vasto mundo, nadie más puede escribir tu historia.»",
+                "«Trabaja duro para amar cada pequeño detalle de quien eres hoy.»",
+                "«Que tus pensamientos encuentren paz en medio del ruido de la ciudad.»",
+                "«El sol brilla incluso después de la tormenta más fría; solo sé paciente contigo mismo.»",
+                "«Gracias por ser el faro y la brújula que guía nuestros pasos hacia adelante.»"
+            ]
         },
         closing: {
             title: "Keep cool & wander",
-            message: "Gracias por valorar la poesía detrás de cada nota."
+            message: "Gracias por valorar la poesía detrás de cada nota y por sostenernos con tus palabras."
         }
     },
-    "bts-jin": {
+   "bts-jin": {
         id: "bts-jin",
         name: "Jin (Kim Seokjin)",
         subtitle: "WorldWide Handsome & voz de ángel",
-        biography: "El hyung mayor de BTS, reconocido por su voz cristalina en baladas conmovedoras, su carisma inigualable y su sentido del humor único.",
+        biography: "El hyung mayor de BTS, reconocido mundialmente por su voz cristalina y emotiva en baladas inolvidables, su carisma inigualable, su incomparable belleza y un sentido del humor que alegra el corazón de todo ARMY.",
         theme: {
             colors: {
                 primary: "#f43f5e",
@@ -114,37 +135,59 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #f43f5e 0%, #fb7185 100%)"
         },
         hero: {
-            image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80",
+            image: "https://i.pinimg.com/736x/39/58/21/39582149af0bb4766baa2623e63c2722.jpg",
             alt: "Jin de BTS",
             title: "Seokjin",
-            description: "Notas altas que emocionan y una sonrisa que ilumina el mundo.",
-            quote: "«The Astronaut: You're my universe.»"
+            description: "Notas altas que emocionan hasta las lágrimas y una sonrisa que ilumina todo el universo.",
+            quote: "«The Astronaut: You're my universe and I'm in your dream.»"
         },
         allGallery: [
-            { image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=800&q=80", title: "Epiphany", description: "El amor propio como el viaje más importante." }
+            { 
+                image: "https://i.pinimg.com/1200x/9c/2e/eb/9c2eebe728b7e4e3a1efc95affd06bd1.jpg", 
+                title: "Epiphany de Puro Amor", 
+                description: "El viaje del amor propio reflejado en una interpretación conmovedora e inolvidable." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/cf/b9/c2/cfb9c217045247268e71f0a600ab8abe.jpg", 
+                title: "WorldWide Handsome", 
+                description: "Elegancia, carisma natural y una presencia que brilla con fuerza en cada escenario." 
+            },
+            { 
+                image: "https://i.pinimg.com/1200x/2b/de/b0/2bdeb0f9494c2b8f800c2d89ac8c5d57.jpg", 
+                title: "Magia Bajo las Estrellas", 
+                description: "Melodías celestiales dedicadas a ARMY, volviéndose un astronauta en el firmamento." 
+            }
         ],
         allFacts: [
-            { number: "01", text: "Su tema solista 'The Astronaut' fue co-escrito junto a Coldplay." }
+            { number: "01", text: "Su tema solista 'The Astronaut' fue co-escrito junto a la icónica banda Coldplay, marcando un momento muy especial para sus fans." },
+            { number: "02", text: "Es conocido cariñosamente como el 'Worldwide Handsome' y destaca por su increíble talento culinario y su programa 'Run Seokjin'." },
+            { number: "03", text: "Posee una voz sumamente poderosa capaz de transmitir una profunda sensibilidad y alcanzar notas altas con total naturalidad." }
         ],
         music: {
-            title: "Jin - The Astronaut (Acoustic)",
-            audioUrl: "https://actions.google.com/sounds/v1/weather/rain_heavy_loud.ogg",
+            title: "Jin - The Astronaut ",
+            audioUrl: "musica/JIN-The Astronaut.mp3",
             loop: true
         },
         floatingConfig: {
             type: "🌟",
-            messages: ["«You and me in this galaxy...»"]
+            messages: [
+                "«You and me in this galaxy, shining brighter than anything else.»",
+                "«Recuerda sonreír todos los días; tu felicidad es lo más importante.»",
+                "«Incluso cuando estés lejos, mi corazón siempre viajará hacia ti como un astronauta.»",
+                "«El amor propio es el primer paso para encontrar la verdadera paz interior.»",
+                "«Gracias por cuidar siempre de nosotros y llenar el mundo con tu hermosa luz.»"
+            ]
         },
         closing: {
             title: "Moonlight memories",
-            message: "Gracias por sonreír siempre junto a ARMY."
+            message: "Gracias por sonreír siempre junto a ARMY y regalarnos tu voz de ángel."
         }
     },
     "bts-suga": {
         id: "bts-suga",
         name: "SUGA (Min Yoongi)",
         subtitle: "Agust D, productor y pianista",
-        biography: "Genio musical, rapero y productor. Yoongi plasma sus batallas personales y su superación en letras profundas y producciones impecables.",
+        biography: "Genio musical, rapero implacable, compositor y productor consagrado. Yoongi plasma sin filtros sus batallas personales, la salud mental y la superación en letras profundas, transformando el dolor y el esfuerzo en producciones impecables que marcan generaciones.",
         theme: {
             colors: {
                 primary: "#64748b",
@@ -158,37 +201,59 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #475569 0%, #94a3b8 100%)"
         },
         hero: {
-            image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80",
+            image: "https://i.pinimg.com/736x/2d/e9/0a/2de90a2a63b03e1b6dca6f4cf31d270a.jpg",
             alt: "SUGA de BTS",
             title: "Agust D",
-            description: "El piano, las teclas y la fuerza de un sueño cumplido.",
-            quote: "«Dream, we will eventually converge in full bloom.»"
+            description: "El piano, las teclas y la fuerza inquebrantable de un sueño convertido en realidad.",
+            quote: "«Dream, we will eventually converge in full bloom at the end of our hardships.»"
         },
         allGallery: [
-            { image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80", title: "D-Day Tour", description: "Fuerza y libertad absoluta sobre el escenario." }
+            { 
+                image: "https://i.pinimg.com/736x/48/ce/a0/48cea034909f4a24351ec1338c55fb45.jpg", 
+                title: "El Alma de Agust D", 
+                description: "Fuerza, autenticidad y libertad absoluta sobre el escenario en cada gira mundial." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/14/ef/cd/14efcd8318abe4a8aa63b1d012e4492d.jpg", 
+                title: "Magia en el Estudio", 
+                description: "El genio detrás de la consola, componiendo y produciendo éxitos globales que trascienden fronteras." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/61/e0/1c/61e01c976f1c1d79e1ca765a61cb5a0e.jpg", 
+                title: "Sueños en Pleno Apogeo", 
+                description: "El piano y las teclas como testigos mudos de una historia de perseverancia y éxito." 
+            }
         ],
         allFacts: [
-            { number: "01", text: "Produce música desde su adolescencia y ha colaborado con leyendas globales." }
+            { number: "01", text: "Produce música desde su adolescencia en Daegu, vendiendo sus primeras beats a cambio de muy poco solo para poder comer y pagar el transporte." },
+            { number: "02", text: "Bajo su álter ego 'Agust D', ha roto récords históricos en las listas de Billboard con sus mixtapes profundamente sinceros y viscerales." },
+            { number: "03", text: "Es un pianista excepcional y ha participado en la producción de decenas de canciones tanto para BTS como para grandes leyendas de la música global." }
         ],
         music: {
-            title: "SUGA - Interlude: Shadow",
-            audioUrl: "https://actions.google.com/sounds/v1/ambiences/night_crickets.ogg",
+            title: "Agust D - Daechwita",
+            audioUrl: "musica/Agust D-Daechwita.mp3",
             loop: true
         },
         floatingConfig: {
             type: "🎹",
-            messages: ["«The last stop where dreams become reality.»"]
+            messages: [
+                "«The last stop where dreams become reality. Sigue adelante sin mirar atrás.»",
+                "«Está bien no tener un sueño; lo importante es encontrar paz y ser feliz en el proceso.»",
+                "«El brillo de las estrellas es más intenso cuanto más oscura es la noche.»",
+                "«Tus sufrimientos y caídas solo son el abono para florecer con más fuerza después.»",
+                "«Gracias por ponerle melodía a nuestros rincones más oscuros y sanarnos con tu arte.»"
+            ]
         },
         closing: {
             title: "Daechwita spirit",
-            message: "Sigue luchando por tus metas sin mirar atrás."
+            message: "Sigue luchando por tus metas, confía en tu propio camino y corona tu esfuerzo."
         }
     },
     "bts-jhope": {
         id: "bts-jhope",
         name: "J-Hope (Jung Hoseok)",
         subtitle: "Nuestra esperanza, nuestra luz",
-        biography: "Bailarín principal, rapero y rayo de sol del grupo. Hoseok contagia alegría, energía imparable y una precisión artística deslumbrante.",
+        biography: "Bailarín principal, rapero, compositor, director de performance y el rayo de sol indiscutible del grupo. Hoseok contagia alegría, una energía escénica imparable, disciplina de hierro y una precisión artística deslumbrante que inspira a todo el mundo.",
         theme: {
             colors: {
                 primary: "#f59e0b",
@@ -202,30 +267,52 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #f59e0b 0%, #10b981 100%)"
         },
         hero: {
-            image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+            image: "https://i.pinimg.com/736x/e3/1b/4e/e31b4e7da44b3d8766b50262af6fe7ad.jpg",
             alt: "J-Hope de BTS",
             title: "J-Hope",
             description: "I'm your hope, I'm your angel, you're my hope.",
-            quote: "«Safety zone: donde la pasión y el ritmo se encuentran.»"
+            quote: "«Safety zone: donde la pasión, la danza y el ritmo se encuentran para sanar el alma.»"
         },
         allGallery: [
-            { image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80", title: "Jack In The Box", description: "Innovación y autenticidad artística sin límites." }
+            { 
+                image: "https://i.pinimg.com/1200x/6f/0f/48/6f0f484cbcb3f8c1d5cd59ea39c4a07f.jpg", 
+                title: "Jack In The Box", 
+                description: "Innovación, oscuridad artística y autenticidad sin límites en su exitosa etapa solista." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/f0/a3/1b/f0a31b267e38cea8e60b4cb08acf18d4.jpg", 
+                title: "El Sol de los Escenarios", 
+                description: "Una presencia deslumbrante que ilumina cada estadio con una sonrisa y una energía arrolladora." 
+            },
+            { 
+                image: "https://i.pinimg.com/1200x/5e/f1/80/5ef1800c96fd0af075fe06b6583f512e.jpg", 
+                title: "Pasión por el Movimiento", 
+                description: "El pilar rítmico y director de coreografías que guía los pasos del grupo a la perfección." 
+            }
         ],
         allFacts: [
-            { number: "01", text: "Es el pilar rítmico y director de coreografías en las presentaciones en vivo." }
+            { number: "01", text: "Es el pilar rítmico y director de coreografías principal, ayudando a pulir los intensos bailes de la banda antes de cada presentación." },
+            { number: "02", text: "Fue el primer miembro de BTS en debutar oficialmente como solista con su aclamado álbum conceptual 'Jack In The Box'." },
+            { number: "03", text: "Antes de debutar, ya era una leyenda underground en la escena del baile callejero y popping en Gwangju, su ciudad natal." }
         ],
         music: {
-            title: "J-Hope - More (Dance Groove)",
-            audioUrl: "https://actions.google.com/sounds/v1/ambiences/coffee_shop.ogg",
+            title: "J-Hope - Arson",
+            audioUrl: "musica/j-hope Arson.mp3",
             loop: true
         },
         floatingConfig: {
             type: "☀️",
-            messages: ["«Smile on, the sun is always shining for you.»"]
+            messages: [
+                "«Smile on, the sun is always shining brightly for you, even behind the clouds.»",
+                "«¡Dale con toda tu energía a tus metas! Eres capaz de lograr lo que te propongas.»",
+                "«Incluso en los días difíciles, recuerda que eres la esperanza de tu propia historia.»",
+                "«El esfuerzo y la pasión nunca traicionan; confía en el ritmo de tu corazón.»",
+                "«Gracias por llenar cada rincón de luz, alegría y buena música.»"
+            ]
         },
         closing: {
             title: "Jack in the box",
-            message: "Rompe tus propios límites con una sonrisa."
+            message: "Rompe tus propios límites con una sonrisa y sal a comerte el mundo."
         }
     },
     "bts-jimin": {
@@ -246,16 +333,16 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%)"
         },
         hero: {
-            image: "img/jimin3.jpg",
+            image: "https://i.pinimg.com/736x/ff/a5/fd/ffa5fd7e38da47ba1837ae1182750f20.jpg",
             alt: "Jimin de BTS",
             title: "Jimin",
             description: "Like Crazy: melodías envolventes que atrapan los sentidos.",
             quote: "«Promise: I want you to be your light.»"
         },
-        allGallery: [
-            { image: "img/jimin1.jpg", title: "Face of Art", description: "Vulnerabilidad y belleza en cada nota interpretada." },
-            { image: "img/jimin2.jpg", title: "Danza contemporánea", description: "La elegancia hecha movimiento sobre el escenario." },
-            { image: "img/jimin0.jpg", title: "Momentos de luz", description: "La calidez y empatía que transmite siempre a sus fans." }
+      allGallery: [
+            { image: "https://i.pinimg.com/736x/0d/79/09/0d7909c64a2ef4654c1ad5026c1a2c8c.jpg", title: "Face of Art", description: "Vulnerabilidad y belleza en cada nota interpretada." },
+            { image: "https://i.pinimg.com/1200x/0c/74/f3/0c74f3372da09db1e733a038726f1efb.jpg", title: "Danza contemporánea", description: "La elegancia hecha movimiento sobre el escenario." },
+            { image: "https://i.pinimg.com/736x/09/bb/19/09bb1970479530a65a278c1e35af7f69.jpg", title: "Momentos de luz", description: "La calidez y empatía que transmite siempre a sus fans." }
         ],
         allFacts: [
             { number: "01", text: "Primer solista coreano en alcanzar el número 1 en el Billboard Hot 100." },
@@ -263,8 +350,8 @@ const artistsData = {
             { number: "03", text: "Es ampliamente reconocido por su gran generosidad, realizando donaciones constantes y silenciosas a la educación y la infancia." }
         ],
         music: {
-            title: "BTS - Life goes on",
-            audioUrl: "musica/BTS_life_goes_on.mp4",
+            title: "Jimin - Promise",
+            audioUrl: "musica/JIMIN-Promise.mp3",
             loop: true
         },
         floatingConfig: {
@@ -292,7 +379,7 @@ const artistsData = {
         id: "bts-v",
         name: "V (Kim Taehyung)",
         subtitle: "Barítono cautivador y alma libre",
-        biography: "Con su voz profunda, su sensibilidad estética por el jazz, la fotografía clásica y el arte, Taehyung crea experiencias artísticas inconfundibles.",
+        biography: "Con su voz profunda, su sensibilidad estética inigualable por el jazz, la música clásica, la fotografía analógica y el arte visual, Taehyung crea experiencias artísticas únicas que nos transportan a un universo de sofisticación y libertad.",
         theme: {
             colors: {
                 primary: "#0ea5e9",
@@ -306,30 +393,52 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%)"
         },
         hero: {
-            image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+            image: "https://i.pinimg.com/736x/41/0a/6c/410a6cb8a1d38df63f50bfe8888488c2.jpg",
             alt: "V de BTS",
             title: "Taehyung",
-            description: "Winter Bear, jazz nocturno y una mirada única sobre la belleza.",
-            quote: "«Scenery: captured moments in the gallery of time.»"
+            description: "Winter Bear, jazz nocturno, saxofón y una mirada poética y única sobre la belleza del mundo.",
+            quote: "«Scenery: captured moments frozen forever in the gallery of time.»"
         },
         allGallery: [
-            { image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80", title: "Slow Dancing", description: "Melodías relajantes que invitan a soñar despiertos." }
+            { 
+                image: "https://i.pinimg.com/736x/3a/d4/53/3ad45352cee3a43589656c401eaa106d.jpg", 
+                title: "Slow Dancing & Jazz", 
+                description: "Melodías relajantes y sofisticadas que invitan a soñar despiertos bajo la luz de la luna." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/a9/fa/f7/a9faf76e7cc96780da615b62ab8df1b4.jpg", 
+                title: "Alma de Artista", 
+                description: "Una sensibilidad estética deslumbrante inspirada en la fotografía clásica, la pintura y el cine." 
+            },
+            { 
+                image: "https://i.pinimg.com/736x/11/2b/9e/112b9e05b5b79443df9666af8773cfcb.jpg", 
+                title: "Winter Bear Dreams", 
+                description: "Calidez, ternura y una voz barítono profunda que acaricia el corazón de cada fan." 
+            }
         ],
         allFacts: [
-            { number: "01", text: "Amante del saxofón, el jazz clásico y la fotografía analógica." }
+            { number: "01", text: "Es un apasionado coleccionista de arte, amante del saxofón, el jazz clásico (como Chet Baker y Frank Sinatra) y la fotografía analógica bajo el seudónimo 'Vante'." },
+            { number: "02", text: "Compuso y produjo canciones sumamente aclamadas y personales como 'Winter Bear', 'Scenery' y su álbum solista 'Layover'." },
+            { number: "03", text: "Posee un registro vocal de barítono excepcionalmente rico y profundo que le otorga una atmósfera única, melancólica y acogedora a cada pista." }
         ],
         music: {
-            title: "V - Winter Bear Acoustic",
-            audioUrl: "https://actions.google.com/sounds/v1/weather/rain_heavy_loud.ogg",
+            title: "V - Winter Bear ",
+            audioUrl: "musica/V_winter_bear.mp3",
             loop: true
         },
         floatingConfig: {
             type: "🐻",
-            messages: ["«Sleep like a winter bear, everything will be fine.»", "«Disfruta de los pequeños detalles artísticos de cada día.»"]
+            messages: [
+                "«Sleep like a winter bear, everything will be fine and beautiful.»",
+                "«Disfruta de los pequeños detalles artísticos y sencillos de cada día.»",
+                "«Que tu vida sea una dulce noche llena de jazz, arte y melodías eternas.»",
+                "«Sé libre como el viento y auténtico en todo lo que decidas ser.»",
+                "«Gracias por mostrarnos el mundo a través de tus ojos llenos de magia y color.»"
+            ]
         },
         closing: {
             title: "Sweet Night",
-            message: "Que tus noches estén llenas de hermosas melodías."
+            message: "Que tus noches estén siempre llenas de hermosas melodías y recuerdos inolvidables."
         }
     },
     "bts-jungkook": {
@@ -350,16 +459,16 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #10b981 0%, #3b82f6 100%)"
         },
         hero: {
-            image: "img/jungkook1.jpg",
+            image: "https://i.pinimg.com/736x/cf/cb/0a/cfcb0a7b48f4125eac389a8dbc3b1a1b.jpg",
             alt: "Jungkook de BTS",
             title: "Jungkook",
             description: "Seven days a week: energía imparable y talento legendario.",
             quote: "«Standing Next to You: un amor que trasciende cualquier escenario.»"
         },
         allGallery: [
-            { image: "img/jungkook0.jpg", title: "Golden Moments", description: "Pasión entregada en cada actuación en vivo con una energía arrolladora." },
-            { image: "img/jungkook2.jpg", title: "Euphoria en el escenario", description: "Momentos mágicos flotando sobre el público y llenando de luz cada rincón." },
-            { image: "img/jungkook3.jpg", title: "Pasión por el arte", description: "Creando, cantando y dejando el alma en cada proyecto que emprende." }
+            { image: "https://i.pinimg.com/1200x/df/7c/60/df7c60cecb519b46c9b072184cc8f068.jpg", title: "Golden Moments", description: "Pasión entregada en cada actuación en vivo con una energía arrolladora." },
+            { image: "https://i.pinimg.com/736x/53/66/70/5366703aba093f5e4aedfe0d58c3fab2.jpg", title: "Euphoria en el escenario", description: "Momentos mágicos flotando sobre el público y llenando de luz cada rincón." },
+            { image: "https://i.pinimg.com/736x/7d/11/0a/7d110acc525664b12f77edb2a4c3d9e1.jpg", title: "Pasión por el arte", description: "Creando, cantando y dejando el alma en cada proyecto que emprende." }
         ],
         allFacts: [
             { number: "01", text: "Ha batido récords globales con su álbum debut en solitario 'GOLDEN'." },
