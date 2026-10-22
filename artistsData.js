@@ -856,8 +856,9 @@ const artistsData = {
             quote: "«Promise: I want you to be your light.»"
         },
         allGallery: [
-            { image: "img/jimin1.jpg", title: "Face of Art", description: "Vulnerabilidad y belleza en cada nota interpretada." },
-            { image: "img/jimin2.jpg", title: "Danza contemporánea", description: "La elegancia hecha movimiento sobre el escenario." }
+            { image: "img/jimin0.jpg", title: "Face of Art", description: "Vulnerabilidad y belleza en cada nota interpretada." },
+            { image: "img/jimin2.jpg", title: "Danza contemporánea", description: "La elegancia hecha movimiento sobre el escenario." },
+            { image: "img/jimin3.jpg", title: "Momentos de luz", description: "La calidez y empatía genuina que transmite siempre a su público." }
         ],
         allFacts: [
             { number: "01", text: "Primer solista coreano en alcanzar el número 1 en la lista global de Billboard Hot 100." },
@@ -905,8 +906,9 @@ const artistsData = {
             quote: "«Standing Next to You: dejar el alma entera en cada escenario.»"
         },
         allGallery: [
-            { image: "img/jungkook1.jpg", title: "Pasión en el escenario", description: "La energía imparable que transmite en cada presentación en vivo." },
-            { image: "img/jungkook2.jpg", title: "Arte y creatividad", description: "Su talento innato para la música, el dibujo y la creación visual." }
+            { image: "img/jungkook0.jpg", title: "Pasión en el escenario", description: "La energía imparable que transmite en cada presentación en vivo." },
+            { image: "img/jungkook2.jpg", title: "Arte y creatividad", description: "Su talento innato para la música, el dibujo y la creación visual." },
+            { image: "img/jungkook3.jpg", title: "Esencia dorada", description: "Momentos únicos que reflejan su dedicación absoluta y su amor por la música." }
         ],
         allFacts: [
             { number: "01", text: "Es conocido mundialmente como el 'Golden Maknae' porque sobresale con excelencia en cualquier disciplina que emprende." },
@@ -921,7 +923,13 @@ const artistsData = {
             type: "🔥",
             messages: [
                 "«¡Dale con todo a tus metas sin mirar atrás; eres imparable!»",
-                "«Sueña en grande y trabaja duro para alcanzar las estrellas.»"
+                "«Sueña en grande y trabaja duro para alcanzar las estrellas.»",
+                "«You bring me to my saneness, every single day.»",
+                "«Seven days a week, ponle toda la pasión y el corazón a lo que amas.»",
+                "«Never let go of the passion and discipline that make you shine.»",
+                "«El esfuerzo de hoy es la gran recompensa del mañana. ¡Tú puedes con todo!»",
+                "«Incluso en los días más intensos, encuentra motivos para dar lo mejor de vos.»",
+                "«Un latido dorado que resuena por siempre con fuerza y determinación.»"
             ]
         },
         closing: {
