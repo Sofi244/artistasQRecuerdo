@@ -831,11 +831,11 @@ const artistsData = {
             message: "Escanea este QR siempre que quieras volver a este momento."
         }
     },
-    "btsjiminespecial": {
+"btsjiminespecial": {
         id: "recuerdo-especial-jimin",
-        name: "Recuerdo Especial con Jimin",
-        subtitle: "Un momento guardado junto a Jimin",
-        biography: "Hay momentos y melodías que detienen el tiempo, convirtiéndose en el refugio perfecto de los recuerdos más hermosos. Este espacio fue diseñado exclusivamente para revivir ese instante mágico con Jimin.",
+        name: "Park Jimin - Curiosidades",
+        subtitle: "Gracia, delicadeza y voz celestial",
+        biography: "Formado en danza contemporánea, Jimin combina una expresividad corporal única con tonos vocales angelicales y una sensibilidad inigualable que conmueve profundamente los corazones de todo ARMY.",
         theme: {
             colors: {
                 primary: "#ec4899",
@@ -850,41 +850,41 @@ const artistsData = {
         },
         hero: {
             image: "img/jimin1.jpg",
-            alt: "Recuerdo especial Jimin",
-            title: "Para alguien muy especial",
-            description: "Una dedicatoria única plasmada en este QRecuerdo.",
-            quote: "«You never walk alone in this journey.»"
+            alt: "Jimin de BTS",
+            title: "El Arte de Jimin",
+            description: "Un recorrido por la elegancia, la danza y la voz inconfundible de Jimin.",
+            quote: "«Promise: I want you to be your light.»"
         },
         allGallery: [
-            { image: "img/jimin1.jpg", title: "Instante inolvidable", description: "El día en que su voz cobró un sentido diferente." },
-            { image: "img/jimin2.jpg", title: "Nuestra historia", description: "Pequeños detalles que construyen un gran camino juntos." }
+            { image: "img/jimin1.jpg", title: "Face of Art", description: "Vulnerabilidad y belleza en cada nota interpretada." },
+            { image: "img/jimin2.jpg", title: "Danza contemporánea", description: "La elegancia hecha movimiento sobre el escenario." }
         ],
         allFacts: [
-            { number: "01", text: "La fecha que cambió nuestra perspectiva de las cosas." },
-            { number: "02", text: "Una melodía compartida que vale más que mil palabras." }
+            { number: "01", text: "Primer solista coreano en alcanzar el número 1 en la lista global de Billboard Hot 100." },
+            { number: "02", text: "Fue el mejor estudiante de su clase en el departamento de danza moderna en la Escuela Superior de Artes de Busan." }
         ],
         music: {
-            title: "Jimin - Like Crazy Vibes",
-            audioUrl: "https://actions.google.com/sounds/v1/ambiences/night_train.ogg",
+            title: "BTS - Life Goes On",
+            audioUrl: "musica/BTS_life_goes_on.mp4",
             loop: true
         },
         floatingConfig: {
             type: "🌸",
             messages: [
-                "«Gracias por cada momento compartido y por los que faltan.»",
-                "«Tu sonrisa es el mejor paisaje de este recuerdo.»"
+                "«You never walk alone in this journey.»",
+                "«I want you to be your light, baby. Cuídate mucho.»"
             ]
         },
         closing: {
-            title: "Por siempre en la memoria",
-            message: "Escanea este QR siempre que quieras volver a este momento."
+            title: "With You",
+            message: "Brilla siempre con luz propia y regálale tu sensibilidad al mundo."
         }
     },
-    "btsjkespecial": {
+"btsjkespecial": {
         id: "recuerdo-especial-jk",
-        name: "Recuerdo Especial con Jungkook",
-        subtitle: "Un momento dorado guardado para siempre",
-        biography: "Hay canciones que detienen el tiempo y se convierten en el refugio perfecto de los recuerdos más hermosos que compartimos. Este espacio fue diseñado exclusivamente para revivir ese instante único junto a Jungkook.",
+        name: "Jeon Jungkook - Curiosidades",
+        subtitle: "El encanto único del Golden Maknae",
+        biography: "Jungkook destaca en absolutamente todo lo que hace: canto, baile, producción, pintura y dirección visual. Su talento polifacético, su ternura inigualable y su pasión desbordante conquistan los corazones de todo ARMY alrededor del mundo.",
         theme: {
             colors: {
                 primary: "#10b981",
@@ -899,34 +899,34 @@ const artistsData = {
         },
         hero: {
             image: "img/jungkook1.jpg",
-            alt: "Recuerdo especial Jungkook",
-            title: "Para alguien muy especial",
-            description: "Una dedicatoria única plasmada en este QRecuerdo.",
-            quote: "«Standing Next to You: un amor que trasciende cualquier escenario.»"
+            alt: "Jungkook de BTS",
+            title: "El Golden Maknae",
+            description: "Un recorrido por la magia, el talento y la energía arrolladora de Jungkook.",
+            quote: "«Standing Next to You: dejar el alma entera en cada escenario.»"
         },
         allGallery: [
-            { image: "img/jungkook1.jpg", title: "Instante inolvidable", description: "El día en que todo cobró un sentido diferente." },
-            { image: "img/jungkook2.jpg", title: "Nuestra historia", description: "Pequeños detalles que construyen un gran camino juntos." }
+            { image: "img/jungkook1.jpg", title: "Pasión en el escenario", description: "La energía imparable que transmite en cada presentación en vivo." },
+            { image: "img/jungkook2.jpg", title: "Arte y creatividad", description: "Su talento innato para la música, el dibujo y la creación visual." }
         ],
         allFacts: [
-            { number: "01", text: "La fecha que cambió nuestra perspectiva de las cosas." },
-            { number: "02", text: "Una risa compartida que vale más que mil palabras." }
+            { number: "01", text: "Es conocido mundialmente como el 'Golden Maknae' porque sobresale con excelencia en cualquier disciplina que emprende." },
+            { number: "02", text: "Posee una voz de oro capaz de transmitir una potencia increíble en pistas pop y una dulzura única en las baladas." }
         ],
         music: {
-            title: "Jungkook - Seven Beats",
-            audioUrl: "https://actions.google.com/sounds/v1/ambiences/coffee_shop.ogg",
+            title: "BTS - Life Goes On",
+            audioUrl: "musica/BTS_life_goes_on.mp4",
             loop: true
         },
         floatingConfig: {
             type: "🔥",
             messages: [
-                "«Gracias por cada momento compartido y por los que faltan.»",
-                "«Tu sonrisa es el mejor paisaje de este recuerdo.»"
+                "«¡Dale con todo a tus metas sin mirar atrás; eres imparable!»",
+                "«Sueña en grande y trabaja duro para alcanzar las estrellas.»"
             ]
         },
         closing: {
-            title: "Por siempre en la memoria",
-            message: "Escanea este QR siempre que quieras volver a este momento."
+            title: "Golden memories",
+            message: "Brilla siempre con luz propia al igual que Jungkook."
         }
     }
 };
