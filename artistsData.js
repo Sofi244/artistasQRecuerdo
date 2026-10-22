@@ -165,7 +165,7 @@ const artistsData = {
         ],
         music: {
             title: "Jin - The Astronaut ",
-            audioUrl: "musica/JIN-The Astronaut.mp3",
+            audioUrl: "musica/JIN-The Astronaut .mp3",
             loop: true
         },
         floatingConfig: {
@@ -231,7 +231,7 @@ const artistsData = {
         ],
         music: {
             title: "Agust D - Daechwita",
-            audioUrl: "musica/Agust D-Daechwita.mp3",
+            audioUrl: "musica/Agust D- Daechwita.mp3",
             loop: true
         },
         floatingConfig: {
@@ -423,7 +423,7 @@ const artistsData = {
         ],
         music: {
             title: "V - Winter Bear ",
-            audioUrl: "musica/V_winter_bear.mp3",
+            audioUrl: "musica/V - Winter Bear.mp3",
             loop: true
         },
         floatingConfig: {
@@ -466,7 +466,7 @@ const artistsData = {
             quote: "«Standing Next to You: un amor que trasciende cualquier escenario.»"
         },
         allGallery: [
-            { image: "https://i.pinimg.com/1200x/df/7c/60/df7c60cecb519b46c9b072184cc8f068.jpg", title: "Golden Moments", description: "Pasión entregada en cada actuación en vivo con una energía arrolladora." },
+            { image: "https://i.pinimg.com/736x/e6/d7/6b/e6d76b41a4fe335106ff313f39d31e57.jpg", title: "Golden Moments", description: "Pasión entregada en cada actuación en vivo con una energía arrolladora." },
             { image: "https://i.pinimg.com/736x/53/66/70/5366703aba093f5e4aedfe0d58c3fab2.jpg", title: "Euphoria en el escenario", description: "Momentos mágicos flotando sobre el público y llenando de luz cada rincón." },
             { image: "https://i.pinimg.com/736x/7d/11/0a/7d110acc525664b12f77edb2a4c3d9e1.jpg", title: "Pasión por el arte", description: "Creando, cantando y dejando el alma en cada proyecto que emprende." }
         ],
@@ -476,8 +476,8 @@ const artistsData = {
             { number: "03", text: "Participó activamente en la composición y producción de varios de los grandes éxitos del grupo y de sus propias canciones solistas." }
         ],
         music: {
-            title: "BTS - Life goes on",
-            audioUrl: "musica/BTS_life_goes_on.mp4",
+            title: "BTS - Euphoria",
+            audioUrl: "musica/JUNGKOOK- Euphoria.mp3",
             loop: true
         },
         floatingConfig: {
