@@ -849,7 +849,7 @@ const artistsData = {
             gradient: "linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%)"
         },
         hero: {
-            image: "img/jimin1.jpg",
+            image: "img/jimin3.jpg",
             alt: "Jimin de BTS",
             title: "El Arte de Jimin",
             description: "Un recorrido por la elegancia, la danza y la voz inconfundible de Jimin.",
@@ -858,7 +858,7 @@ const artistsData = {
         allGallery: [
             { image: "img/jimin0.jpg", title: "Face of Art", description: "Vulnerabilidad y belleza en cada nota interpretada." },
             { image: "img/jimin2.jpg", title: "Danza contemporánea", description: "La elegancia hecha movimiento sobre el escenario." },
-            { image: "img/jimin3.jpg", title: "Momentos de luz", description: "La calidez y empatía genuina que transmite siempre a su público." }
+            { image: "img/jimin1.jpg", title: "Momentos de luz", description: "La calidez y empatía genuina que transmite siempre a su público." }
         ],
         allFacts: [
             { number: "01", text: "Primer solista coreano en alcanzar el número 1 en la lista global de Billboard Hot 100." },
